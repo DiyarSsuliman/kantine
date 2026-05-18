@@ -1,0 +1,427 @@
+body{
+    font-family: sans-serif;
+}
+
+.lineUp{
+   display: flex;
+}
+
+.logoLineUp{
+    width: 65%;
+    
+}
+
+
+.logoLineUp img{
+    height: 100%;
+    width: 72%;
+    margin-left: 5%;
+}
+
+.lineUpbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 35%;
+    
+}
+
+.but-ho{
+  height: 50%;
+  width: 30%;
+  border-radius: 999px;
+  background-color: #f8cc01;
+  font-size: 150%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.but-ki{
+   height: 50%;
+  width: 30%;
+  border-radius: 999px;
+  background-color: #f8cc01;
+  font-size: 150%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.hero{
+    display: flex;
+    background-color: #f8cc01;
+    height: 300px;
+    border-radius: 40px 40px 40px 40px;
+    margin: 1% 1% 1% 1%;
+}
+
+.heroAll{
+  display: flex;
+  width: 70%;
+}
+
+.heroText{
+    width: 70%;
+    height: 100%;
+    
+}
+
+.Text{
+    height: 80%;
+    margin: 1% 1% 1% 1%;
+    font-size: 30px;
+}
+
+.heroButton{
+    display: flex;
+    align-items:flex-end;
+    width: 30%;
+}
+
+button{
+    height: 20%;
+    width: 50%;
+    margin-bottom: 5%;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 150%;
+    border: 2px solid #d3ba17;
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.heroImg{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heroImg img{
+    width: 95%;
+    height: 95%;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5% 5% 5%;
+  font-family: Inria Sans, sans-serif;
+}
+
+.openings{
+  width: 50%;
+}
+
+.footerInfo h5 {
+  font-size: 100%;
+}
+
+.footerInfo p {
+  margin-left: 8%;
+  font-size: 100%;
+  line-height: 1.6;
+}
+
+.openings {
+  width: 50%;
+}
+
+.contactInfo {
+  width: 50%;
+  text-align: right;
+}
+
+.contactInfo h6{
+  margin-bottom: 2%;
+  font-size: 100%;
+}
+
+.social {
+  height: 19%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.facebook {
+  width: 4%;
+  height: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(4, 8, 249);
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .but-ho{
+    font-size: 30px;
+    height: 65%;
+    width: 40%;
+  }
+
+  .but-ki{
+    font-size: 30px;
+    height: 65%;
+    width: 40%;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .hero{
+    height: 230px;
+  }
+
+  .heroAll{
+    width: 70%;
+    margin: 0px;
+  }
+
+  .heroText{
+    width: 70%;
+    height: 100%;
+    
+  }
+
+  .Text{
+    font-size: 18px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
+  }
+
+  .heroButton{
+    width: 40%;
+  }
+
+  .heroButton button{
+    font-size: 100%;
+    height: 22%;
+    width: 70%;
+  }
+
+  .heroImg{
+    width: 50%;
+    margin: 0px;
+  }
+
+  .heroImg img{
+    width: 85%;
+    height: 90%;
+    margin-left: 9%;
+  }
+
+  .facebook{
+    width: 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .but-ho{
+    font-size: 17px;
+    height: 65%;
+    width: 40%;
+  }
+
+  .but-ki{
+    font-size: 17px;
+    height: 65%;
+    width: 40%;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  .hero{
+    height: 200px;
+  }
+
+  .heroAll{
+    width: 70%;
+    margin: 0px;
+  }
+
+  .heroText{
+    width: 70%;
+    height: 100%;
+    
+  }
+
+  .Text{
+    font-size: 15px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
+  }
+
+  .heroButton{
+    width: 40%;
+  }
+
+  .heroButton button{
+    font-size: 100%;
+    height: 22%;
+    width: 80%;
+  }
+
+  .heroImg{
+    width: 50%;
+    margin: 0px;
+  }
+
+  .heroImg img{
+    width: 85%;
+    height: 90%;
+    margin-left: 9%;
+  }
+
+  .facebook{
+    width: 8%;
+  }
+}
+
+@media (max-width: 426px) {
+  .but-ho{
+    font-size: 13px;
+    height: 90%;
+    width: 40%;
+  }
+
+  .but-ki{
+    font-size: 13px;
+    height: 90%;
+    width: 40%;
+  }
+
+  h1{
+    font-size: 15px;
+  }
+
+  .hero{
+    height: 150px;
+  }
+
+  .heroAll{
+    width: 70%;
+    margin: 0px;
+  }
+
+  .heroText{
+    width: 70%;
+    height: 100%;
+    
+  }
+
+  .Text{
+    font-size: 10px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
+  }
+
+  .heroButton{
+    width: 40%;
+  }
+
+  .heroButton button{
+    font-size: 70%;
+    height: 22%;
+    width: 90%;
+  }
+
+  .heroImg{
+    width: 50%;
+  }
+
+  .heroImg img{
+    width: 90%;
+    height: 90%;
+    margin-left: 0%;
+  }
+
+  .facebook{
+    width: 16%;
+  }
+}
+
+@media (max-width: 320px) {
+  .but-ho{
+    font-size: 12px;
+    height: 65%;
+    width: 40%;
+  }
+
+  .but-ki{
+    font-size: 12px;
+    height: 65%;
+    width: 40%;
+  }
+
+  h1{
+    font-size: 13px;
+  }
+
+  .hero{
+    height: 120px;
+  }
+
+  .heroAll{
+    width: 70%;
+    margin: 0px;
+  }
+
+  .heroText{
+    width: 70%;
+    height: 100%;
+    
+  }
+
+  .Text{
+    font-size: 8px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%;
+    margin-top: 17%;
+  }
+
+  .heroButton{
+    width: 40%;
+  }
+
+  .heroButton button{
+    font-size: 55%;
+    height: 22%;
+    width: 70%;
+  }
+
+  .heroImg{
+    width: 50%;
+    margin: 0px;
+  }
+
+  .heroImg img{
+    width: 85%;
+    height: 90%;
+    margin-left: 9%;
+  }
+
+  .facebook{
+    width: 20%;
+  }
+}

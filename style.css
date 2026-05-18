@@ -1,0 +1,295 @@
+
+.lineUp{
+   display: flex;
+    height: 100px;
+}
+
+.logoLineUp{
+    width: 65%;
+    
+}
+
+
+.logoLineUp img{
+    height: 100px;
+    margin-left: 20px;
+}
+
+.lineUpbuttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 35%;
+    
+}
+
+.but-ma{
+    height: 55px;
+    width: 130px;
+    padding: 10px 30px;
+    border-radius: 999px;
+    border: 2px solid #ccc;
+    background-color: #D3BA17;
+    font-size: 23px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but-ki{
+  height: 55px;
+  width: 130px;
+  padding: 10px 30px;
+  border-radius: 999px;
+  border: 2px solid #ccc;
+  background-color: #D3BA17;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 638px; 
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+ 
+}
+
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.729); 
+}
+
+
+.hero h1 {
+  position: absolute;
+  top: 44%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: #ffffffd4;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 5px;
+  z-index: 1;
+  font-family: 'Foglihtenno07', sans-serif;
+  font-weight: normal;
+  letter-spacing:-2px;
+}
+
+.hero h2 {
+  position: absolute;
+  top: 50%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  color: #ffffffd4;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 5px;
+  z-index: 1;
+  font-family: 'Foglihtenno07', sans-serif;
+  font-weight: normal;
+  letter-spacing:10px;
+}
+
+.hero h3 {
+  position: absolute;
+  top: 56%;
+  left: 49.1%;
+  transform: translate(-50%, -50%);
+  color: #ffffffd4;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 5px;
+  z-index: 1;
+  font-family: 'Foglihtenno07', sans-serif;
+  font-weight: normal;
+  letter-spacing:-3px;
+}
+
+.intAns{
+  display: flex;
+  font-family: Inria Sans, sans-serif;
+}
+
+.kanV{
+  font-size: 25px;
+  margin-top: 80px;
+}
+
+.intAnsimg{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intAnsimg img{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+hr{
+  margin-top: 50px;
+  border: none;
+  height: 2px;
+  background-color: #beb8b8;
+}
+
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+  font-family: Inria Sans, sans-serif;
+}
+
+
+
+.footerInfo h5 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.footerInfo p {
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.openings {
+  width: 50%;
+}
+
+.contactInfo {
+  width: 50%;
+  text-align: right;
+}
+
+.contactInfo h6{
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.social {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.facebook {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(4, 8, 249);
+  color: white;
+}
+
+
+@media (max-width: 1024px) {
+  .kanP{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .intAns {
+    font-size: 15px;
+    display: block;
+  }
+
+  .intAnsimg img{
+    width: 60%;
+  }
+}
+
+@media (max-width: 426px) {
+    .lineUp{
+      height: 70px;
+      width: 100%;
+      margin-left: 0px;
+    }
+    .logoLineUp{
+      height: 100%;
+      width: 50%;
+      margin-left: -5px;
+    }
+
+    .logoLineUp img{
+      height: 90%;
+      margin-left: 0px;
+      width: 140%;
+     
+    }
+    .lineUpbuttons{
+      width: 50%;
+      
+    }
+
+    .but-ki{
+      height: 40px;
+      width: 70px;
+      font-size: 12px;
+      margin: auto;
+    }
+
+    .but-ma{
+      height: 40px;
+      width: 35px;
+      font-size: 12px;
+      margin-left: 10%;
+    }
+
+    .hero h1 {
+    top: 46.5%;
+    left: 49%;
+    font-size: 28px;
+    letter-spacing:-1px;
+  }
+
+  .hero h2 {
+    top: 50%;
+    left: 49.5%;
+    font-size: 28px;
+    letter-spacing:6px;
+  }
+
+  .hero h3 {
+    top: 53.5%;
+    left: 49.1%;
+    font-size: 28px;
+    letter-spacing:-2px;
+  }
+
+  .openings p{
+
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .contactInfo h6{
+    margin-top: 25px;
+  }
+  .contactInfo p{
+    margin-right: 10px;
+    font-size: 12px;
+  }
+}

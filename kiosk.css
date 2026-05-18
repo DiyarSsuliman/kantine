@@ -1,0 +1,268 @@
+.lineUp{
+   display: flex;
+}
+
+.logoLineUp{
+    width: 65%;
+    
+}
+
+
+.logoLineUp img{
+    height: 100%;
+    width: 72%;
+    margin-left: 5%;
+}
+
+.lineUpbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 35%;
+}
+
+.but-ho{
+  height: 50%;
+  width: 30%;
+  border-radius: 999px;
+  border: solid #ccc;
+  background-color: #f8cc01;
+  font-size: 150%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.but-ki{
+   height: 50%;
+  width: 30%;
+  border-radius: 999px;
+  border: solid #ccc;
+  background-color: #f8cc01;
+  font-size: 150%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayData{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product{
+    font-family: Inter, sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 260px;
+    background-color: #f8cc01;
+    border-radius: 10% 10% 10% 10%;
+    margin: 0% 1% 1% 1%;
+    border: 5px solid #f8cc01;
+   
+    
+}
+
+.proT {
+    font-size: 82%;
+    
+}
+
+
+
+.proPh{
+    height: 50%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center; 
+    border-radius: 10% 10% 10% 10%;
+    margin: 1% 1% 1% 1%; 
+    margin-left: -0.01%;
+    
+}
+
+.proPh img{
+    height: 100%;
+      
+}
+
+.proInfo{
+    padding: 1% 1% 1% 2%;
+}
+
+.proB button{
+    height: 60%;
+    width: 40%;
+    border-radius: 999px;
+    border: 2px solid #ccc;
+    background-color: #000000e7;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(210, 210, 210);
+    padding: 5% 5% 5% 5%;
+    margin-left: 55%;
+    margin-top: 9%;
+}
+
+
+hr{
+  border: none;
+  height: 2px;
+  background-color: #beb8b8;
+  width: 86%;
+}
+
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5% 5% 5%;
+  font-family: Inria Sans, sans-serif;
+}
+
+.openings{
+  width: 50%;
+}
+
+.footerInfo h5 {
+  font-size: 100%;
+}
+
+.footerInfo p {
+  margin-left: 8%;
+  font-size: 100%;
+  line-height: 1.6;
+}
+
+.openings {
+  width: 50%;
+}
+
+.contactInfo {
+  width: 50%;
+  text-align: right;
+}
+
+.contactInfo h6{
+  margin-bottom: 2%;
+  font-size: 100%;
+}
+
+.social {
+  height: 19%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.facebook {
+  width: 3.5%;
+  height: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(4, 8, 249);
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .but-ho{
+    font-size: 30px;
+    height: 55%;
+    width: 40%;
+  }
+
+  .but-ki{
+    font-size: 30px;
+    height: 55%;
+    width: 40%;
+  }
+  .product{
+    height: 220px;
+  }
+  .proB{
+    height: 70px;
+  }
+
+  .proT{
+    font-size: 11px;
+  }
+
+  .facebook{
+    width: 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .but-ho{
+    font-size: 17px;
+    height: 65%;
+    width: 40%;
+  }
+
+  .but-ki{
+    font-size: 17px;
+    height: 65%;
+    width: 40%;
+  }
+
+  
+  .product{
+    height: 200px;
+  }
+  .proB{
+    height: 60px;
+    width: 100%;
+  }
+
+  .proT{
+    font-size: 9px;
+  }
+
+  .facebook{
+    width: 6%;
+  }
+}
+
+@media (max-width: 426px) {
+.but-ho{
+    font-size: 15px;
+    height: 80%;
+    width: 60%;
+  }
+
+  .but-ki{
+    font-size: 15px;
+    height: 80%;
+    width: 60%;
+  }
+
+ 
+  .product{
+    height: 200px;
+    width: 97%;
+    margin: 2%;
+   
+  }
+  .proB{
+    height: 60px;
+    width: 100%;
+  }
+
+  .proT{
+    font-size: 9px;
+  }
+
+  .facebook{
+    width: 14%;
+  }
+}
