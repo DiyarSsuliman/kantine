@@ -26,26 +26,25 @@
   height: 50%;
   width: 30%;
   border-radius: 999px;
-  border: solid #ccc;
   background-color: #f8cc01;
   font-size: 150%;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
-
 .but-ki{
    height: 50%;
   width: 30%;
   border-radius: 999px;
-  border: solid #ccc;
   background-color: #f8cc01;
   font-size: 150%;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .displayData{
